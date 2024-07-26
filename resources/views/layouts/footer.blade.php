@@ -1,5 +1,5 @@
-<footer class="p-4 bg-white md:p-8 lg:p-10 dark:bg-gray-800">
-    <div class="mx-auto max-w-screen-xl text-center">
+<footer class="absolute left-0 w-full bottom-0 p-4 bg-slate-50 md:p-8 lg:p-10 dark:bg-gray-800 border">
+    <div class="mx-auto lg:pl-64 max-w-screen-xl text-center">
         <a href="#" class="flex justify-center items-center text-2xl font-semibold text-gray-900 dark:text-white">
             {{ config('app.name', 'Laravel') }}    
         </a>

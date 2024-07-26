@@ -1,6 +1,6 @@
 <x-guest-layout title="Register">
   <div class="flex items-center mb-6 text-2xl font-semibold text-gray-900 dark:text-white">
-    <img class="w-8 h-8 mr-2" src="https://cdn.discordapp.com/attachments/1221432112444604547/1261543329405866054/heart-rate.png?ex=66935748&is=669205c8&hm=4f30338ee6d1defc8cf7ea1b142bc126bda62f98aac09e7027f65b5030d3e201&" alt="logo">
+    <img class="w-8 h-8 mr-2" src="{{ asset('electric-logo.png') }}" alt="logo">
     {{ config('app.name') }}    
   </div>
   <div class="w-full bg-white rounded-lg shadow dark:border md:mt-0 sm:max-w-lg xl:p-0 dark:bg-gray-800 dark:border-gray-700">
@@ -44,7 +44,7 @@
                     <input id="terms" aria-describedby="terms" type="checkbox" class="w-4 h-4 border border-gray-300 rounded bg-gray-50 focus:ring-3 focus:ring-primary-300 dark:bg-gray-700 dark:border-gray-600 dark:focus:ring-primary-600 dark:ring-offset-gray-800" required="">
                   </div>
                   <div class="ml-3 text-sm">
-                    <label for="terms" class="font-light text-gray-500 dark:text-gray-300">I accept the <a class="font-medium text-primary-600 hover:underline dark:text-primary-500" href="#">Terms and Conditions</a></label>
+                    <label for="terms" class="font-light text-gray-500 dark:text-gray-300">I accept the <a class="font-medium text-primary-600 hover:underline dark:text-primary-500" href="/terms-condition">Terms and Conditions</a></label>
                   </div>
               </div>
               <button type="submit" class="w-full text-white bg-primary-600 hover:bg-primary-700 focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">Create an account</button>

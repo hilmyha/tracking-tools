@@ -9,10 +9,10 @@
 
     @vite(['resources/css/app.css','resources/js/app.js'])
 </head>
-<body class="scroll-smooth">
+<body class="scroll-smooth relative m-0 min-h-screen pb-[256px]">
     @include('layouts.navigation')
 
-    <main class="container px-4 py-28 mx-auto h-svh border">
+    <main class="px-4 lg:px-12 pt-24 lg:pt-32 pb-20 mx-auto grid gap-4 border">
         {{ $slot }}
     </main>
 

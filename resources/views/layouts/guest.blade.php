@@ -10,12 +10,8 @@
     @vite(['resources/css/app.css','resources/js/app.js'])
 </head>
 <body class="scroll-smooth bg-slate-50">
-    {{-- @include('layouts.navigation') --}}
-
     <main class="container px-4 py-28 mx-auto h-svh flex flex-col items-center justify-center border">
         {{ $slot }}
     </main>
-
-    {{-- @include('layouts.footer') --}}
 </body>
 </html>
